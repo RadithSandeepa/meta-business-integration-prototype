@@ -8,6 +8,12 @@ This prototype was tested with a connected **Instagram Business Account**, a **F
 
 > This project was built for experimental and learning purposes around Meta's unified messaging platform.
 
+![Whatsapp](https://github.com/RadithSandeepa/meta-business-integration-prototype/blob/main/screenshots/Screenshot%20(13).png)
+
+![Facebook](https://github.com/RadithSandeepa/meta-business-integration-prototype/blob/main/screenshots/Screenshot%20(12).png)
+
+![Instagram](https://github.com/RadithSandeepa/meta-business-integration-prototype/blob/main/screenshots/Screenshot%20(11).png)
+
 ## How to Set Up
 
 ### 1. Clone the Repository
@@ -69,7 +75,17 @@ git clone https://github.com/RadithSandeepa/meta-business-integration-prototype.
 - Go to [Meta for Developers](https://developers.facebook.com/)
 - Create a new App or use an existing one
 - Add **Messenger, Instagram Graph API, and WhatsApp Business** API under "Add Products"
+
+![Add Products](https://github.com/RadithSandeepa/meta-business-integration-prototype/blob/main/screenshots/Screenshot%20(7).png)
+  
 - Link your Facebook Page and ensure your Instagram Business Account is connected to that page via Instagram settings
+
+![Link(1)](https://github.com/RadithSandeepa/meta-business-integration-prototype/blob/main/screenshots/Screenshot%20(9).png)
+
+![Link(2)](https://github.com/RadithSandeepa/meta-business-integration-prototype/blob/main/screenshots/Screenshot%20(3).png)
+
+![Link(3)](https://github.com/RadithSandeepa/meta-business-integration-prototype/blob/main/screenshots/Screenshot%20(10).png)
+
 - Under Messenger, Instagram, and WhatsApp, configure Webhooks:
   
   ```
@@ -87,6 +103,8 @@ git clone https://github.com/RadithSandeepa/meta-business-integration-prototype.
 
 - Generate Long-Lived Access Tokens via the Graph API Explorer or Business Settings
 - Test messaging from Facebook/Instagram DMs or WhatsApp to see webhook data in logs. Also, set up your frontend accordingly to send messages too.
+
+![Send](https://github.com/RadithSandeepa/meta-business-integration-prototype/blob/main/screenshots/Screenshot%20(1).png)
 
 
 
