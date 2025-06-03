@@ -62,7 +62,7 @@ git clone https://github.com/RadithSandeepa/meta-business-integration-prototype.
   ngrok http 5000
   ```
 
-- Copy the HTTPS forwarding URL shown by ngrok (e.g., https://random-id.ngrok.io) and use it to register webhook URLs in the Meta Developer portal.
+- Copy the HTTPS forwarding URL shown by ngrok (e.g., https://random-id.ngrok-free.app) and use it to register webhook URLs in the Meta Developer portal.
 
 ### 4. Meta Business Platform Setup  
 
